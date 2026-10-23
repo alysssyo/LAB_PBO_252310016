@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 package Pembelajaran_01;
 
@@ -28,3 +29,35 @@ public class Latihan05 {
         input.close();
     }
 }
+=======
+
+package Pembelajaran_01;
+
+import java.util.Scanner;
+
+public class Latihan05 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Masukkan Usia: ");
+        String usia = input.nextLine();
+
+        System.out.print("Masukkan Firstname: ");
+        String firstname = input.nextLine();
+
+        System.out.print("Masukkan Lastname: ");
+        String lastname = input.nextLine();
+
+        System.out.print("Masukkan NPM: ");
+        String npm = input.nextLine();
+
+        String hasil = usia.concat(firstname)
+                           .concat(lastname)
+                           .concat(npm);
+
+        System.out.println(hasil);
+
+        input.close();
+    }
+}
+>>>>>>> db53543a3f80404fb8502cbc511eda2898f15e3c
